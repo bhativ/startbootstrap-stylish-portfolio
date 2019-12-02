@@ -107,6 +107,17 @@ h6 {
   margin: 0;
   padding: 0;
 }
+@media (max-width: 425px) {
+  .masthead h1 {
+    font-size: 2rem;
+    justify-content: center;
+  }
+
+  .masthead p {
+    font-size: 1rem;
+    justify-content: center;
+  }
+}
 
 @media (min-width: 992px) {
   .masthead {
