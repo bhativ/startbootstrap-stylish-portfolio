@@ -106,15 +106,22 @@ h6 {
   font-size: 4rem;
   margin: 0;
   padding: 0;
+  text-align: left;
+}
+
+.masthead p {
+  text-align: left;
 }
 @media (max-width: 425px) {
   .masthead h1 {
     font-size: 2rem;
     justify-content: center;
+    text-align: center;
   }
 
   .masthead p {
     font-size: 1rem;
+    text-align: center;
     justify-content: center;
   }
 }
