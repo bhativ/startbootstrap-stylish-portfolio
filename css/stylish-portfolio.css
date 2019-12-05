@@ -85,15 +85,6 @@ h6 {
   font-weight: 800;
 }
 
-.masthead-1 {
-  height: 100vh;
-  min-height: 500px;
-  background-image: url("#");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 .masthead {
   min-height: 0rem;
   position: relative;
@@ -117,17 +108,16 @@ h6 {
 @media only screen and (max-width: 425px)  {
   .masthead{
     height: 100vh;
+    background-color: #f8f9fa;
   }
   .masthead h1 {
     font-size: 2rem;
-    justify-content: center;
     text-align: center;
   }
 
   .masthead p {
     font-size: 1rem;
     text-align: center;
-    justify-content: center;
   }
 }
 
