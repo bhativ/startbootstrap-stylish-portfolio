@@ -103,6 +103,9 @@ h6 {
 .masthead p {
   text-align: left;
 }
+.masthead nav {
+  justify-content: right;
+}
 
 
 @media only screen and (max-width: 425px)  {
