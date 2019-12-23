@@ -419,6 +419,24 @@ h6, .h6 {
   line-height: 1.2;
 }
 
+.display-5 {
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.display-6 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.display-7 {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
 hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -7878,6 +7896,10 @@ button.bg-dark:focus {
 
 .h-25 {
   height: 25% !important;
+}
+
+.h-15 {
+  height: 15% !important;
 }
 
 

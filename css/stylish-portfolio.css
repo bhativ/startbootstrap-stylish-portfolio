@@ -111,7 +111,6 @@ h6 {
 @media only screen and (max-width: 425px)  {
   .masthead{
     height: 100vh;
-    background-color: #f8f9fa;
   }
   .masthead h1 {
     font-size: 2rem;
