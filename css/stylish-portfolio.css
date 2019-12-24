@@ -91,6 +91,7 @@ h6 {
   display: table;
   width: 100%;
   height: auto;
+  background-image: url('../img/board.jpg');
 }
 
 .masthead h1 {
