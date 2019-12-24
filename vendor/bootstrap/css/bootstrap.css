@@ -4,6 +4,7 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -41,7 +42,8 @@
   box-sizing: border-box;
 }
 
-.shadow{
+/*Post-it CSS Code*/
+.shadow,.nav-shadow{
   -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
   /* Safari+Chrome */
   -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
@@ -61,7 +63,9 @@
   -moz-transform:rotate(6deg);
 }
 
-.tilt:hover, .tilt:focus ,.tiltReverse:hover, .tiltReverse:focus {
+.tilt:hover, .tilt:focus ,
+.tiltReverse:hover, .tiltReverse:focus,
+.nav-shadow:hover, .nav-shadow:focus  {
   -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
   -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
   box-shadow:10px 10px 7px rgba(0,0,0,.7);
@@ -71,6 +75,7 @@
   position:relative;
   z-index:5;
 }
+/*Post-it CSS Code End */
 
 html {
   font-family: sans-serif;
