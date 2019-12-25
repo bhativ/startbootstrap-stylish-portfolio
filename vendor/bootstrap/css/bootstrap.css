@@ -57,6 +57,18 @@
   -moz-transform:rotate(-6deg);
 }
 
+.nav-tilt{
+  -webkit-transform:rotate(-3deg);
+  -o-transform:rotate(-3deg);
+  -moz-transform:rotate(-3deg);
+}
+
+.nav-tiltReverse{
+  -webkit-transform:rotate(3deg);
+  -o-transform:rotate(3deg);
+  -moz-transform:rotate(3deg);
+}
+
 .tiltReverse{
   -webkit-transform:rotate(6deg);
   -o-transform:rotate(6deg);
@@ -76,6 +88,7 @@
   z-index:5;
 }
 /*Post-it CSS Code End */
+
 
 html {
   font-family: sans-serif;
