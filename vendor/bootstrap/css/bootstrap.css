@@ -75,7 +75,8 @@
   -moz-transform:rotate(6deg);
 }
 
-.tilt:hover, .tilt:focus ,
+@media only screen and (min-width: 770px){
+  .tilt:hover, .tilt:focus ,
 .tiltReverse:hover, .tiltReverse:focus,
 .nav-shadow:hover, .nav-shadow:focus  {
   -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
@@ -87,6 +88,8 @@
   position:relative;
   z-index:5;
 }
+}
+
 /*Post-it CSS Code End */
 
 
